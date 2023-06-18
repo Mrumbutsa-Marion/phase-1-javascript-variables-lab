@@ -82,6 +82,7 @@ it('is set as Scuber', function () {
 });
 ```
 
+
 This example shows that the test expects `companyName` to equal `Scuber`. That
 `expect` and `to.equal` are essentially doing the same thing as `companyName ==
 'Scuber'`. In other words, `expect(companyName).to.equal('Scuber')` is running
